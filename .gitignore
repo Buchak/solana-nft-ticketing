@@ -1,0 +1,39 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*-keypair.json
+*keypair*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+db.sqlite3
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+npm-debug.log*
+
+# Rust and Solana
+target/
+**/*.rs.bk
+.anchor/
+.surfpool/
+test-ledger/
+test-ledger-with-core/
+**/test-ledger/
+**/test-ledger-with-core/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
